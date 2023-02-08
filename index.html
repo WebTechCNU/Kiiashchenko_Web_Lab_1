@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>JS</title>
+    <link rel="stylesheet" href="/css/style.css" />
+</head>
+
+<body>
+    <a href="" name="anchor_nav" class="anchor-top"></a>
+    <nav>
+        <div class="dropdown">
+            <img src="/html.png" alt="" class="logo">
+            <div class="dropdown-content">
+                <img src="/IMG_20210705_171251_375.jpg" alt="">
+                Створив та не буде підтримувати сайт студент ЧНУ ФМІ Кіящено Михайло, 207 група
+            </div>
+        </div>
+
+        <a href="#anchor_school" class="nav-a"> Допомога школяреві </a>
+        <a href="#anchor_finance" class="nav-a"> Допомога фінансисту </a>
+        <a href="#anchor_editor" class="nav-a"> Допомога редактору </a>
+    </nav>
+
+    <div style="display: flex;
+    justify-content: center;
+    align-items: center; flex-direction: column;">
+        <section class="block">
+            <a href="" name="anchor_school" class="anchor"></a>
+            <a href="#anchor_nav" class="head-section">Допомога школяреві</a>
+
+            <p>Enter a pair of natural numbers</p>
+
+            <div class="div-block">
+                <div>
+                    <input type="text" id="input_school_a" />
+                    <input type="text" id="input_school_b" />
+                </div>
+
+                <div class="btn-lab">
+                    <button id="button_school">Start</button>
+                    <label id="label_school_output">Result</label>
+                </div>
+            </div>
+        </section>
+
+        <section class="block">
+            <a href="" name="anchor_finance" class="anchor"></a>
+            <a href="#anchor_nav" class="head-section">Допомога фінансисту</a>
+
+            <p>Enter a natural numbers</p>
+
+            <div class="div-block">
+                <div>
+                    <input type="text" id="input_fin" style="margin-right: 0px;" />
+                </div>
+
+                <div class="btn-lab">
+                    <button id="button_fin">Start</button>
+                    <label id="label_fin_output">Result</label>
+                </div>
+            </div>
+        </section>
+        
+        <section class="block">
+            <a href="" name="anchor_editor" class="anchor"></a>
+            <a href="#anchor_nav" class="head-section">Допомога редактору</a>
+
+            <p>Enter text</p>
+
+            <div class="div-block">
+                <div>
+                    <input type="text" id="input_editor" style="margin-right: 0px;" />
+                </div>
+
+                <div class="btn-lab">
+                    <button id="button_editor">Start</button>
+                    <label id="label_editor_output">Result</label>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="/script.js"></script>
+
+</body>
+
+</html>

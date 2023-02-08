@@ -65,6 +65,7 @@ nav {
 
 .nav-a {
     margin-left: 40px;
+    font-weight: bold;
 }
 
 
@@ -82,7 +83,7 @@ nav {
 
 .block {
     margin-top: 40vh;
-    height: 250px;
+    height: 280px;
     width: 500px;
 
     border: solid #000;
@@ -91,8 +92,12 @@ nav {
     background-color: rgb(158, 175, 210);
 }
 
+.block:last-child{
+    height: 400px;
+}
+
 .head-section {
-    margin-top: 0;
+    margin: 0px;
     height: 65px;
 
     display: flex;
@@ -175,4 +180,17 @@ nav {
     outline: none;
 
     background-color: aquamarine;
+}
+
+.explaining{
+    margin-top: -3px;
+    text-align: center;
+}
+
+.textarea {
+    border-radius: 5px;
+    border: none;
+    outline: none;
+
+    background: rgb(207, 80, 80);
 }

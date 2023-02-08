@@ -89,6 +89,3 @@ function firstLetterToCapital ()
 }
 
 btnEditor.addEventListener("click", firstLetterToCapital);
-
-
-// blablabla

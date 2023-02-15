@@ -71,7 +71,7 @@ btnSchool.addEventListener("click", commonDenominator);
 
 function firstLetterToCapital ()
 {
-    let input = document.querySelector("#input_editor").value;
+    let input = document.querySelector("#input_editor").value.trim();
     let splited = input.split(" ");
     let result = splited.length;
     
